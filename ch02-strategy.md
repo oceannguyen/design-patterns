@@ -31,9 +31,14 @@ want to work with, as shown in Figure 2-3.
 algorithms, encapsulate each one, and make them interchangeable. Strategy
 lets the algorithm vary independently from clients that use it.
 
-**TIP**: The GoF book says the Strategy design pattern should: “Define a family of
-algorithms, encapsulate each one, and make them interchangeable. Strategy
-lets the algorithm vary independently from clients that use it.
+Separate the parts of your code that will change the most from the rest of your application and
+try to make them as freestanding as possible for easy maintenance. You
+should also always try to reuse those parts as much as possible.
+
+One object, one task often makes sense instead of writing multi-generation
+code where one task is spread out over a dozen generations
+
+**TIP**:
 
 - You have volatile code that you can separate out of your application for
 easy maintenance.
