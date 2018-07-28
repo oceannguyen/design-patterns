@@ -14,6 +14,5 @@ Use the Builder pattern when you want client code and have control over the cons
 
 ## TIP
 In the Template Method design pattern, the multi-step algorithm is king —
-you set it up the way you want it, and all the subclasses have to follow your
-lead. But now the situation is different — the client wants to set the order
-and number of steps in the algorithm
+you set it up the way you want it, and all the subclasses have to follow your lead. 
+But now the situation is different — the client wants to set the order and number of steps in the algorithm
