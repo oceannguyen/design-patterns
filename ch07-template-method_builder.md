@@ -22,5 +22,5 @@ But now the situation is different — the client wants to set the order and num
 ## Remember
 
 Use the Builder design pattern when you want client code to have control
-over the construction process but want to be able to end up with different
+over *the construction **process*** but want to be able to end up with different
 kinds of objects (each of which is built by a different type of builder).
